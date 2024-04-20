@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+;
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400; 
+    color:#002D5F;
+}
+.fixado{
+    position: static;
+    width: 100%;
+    
+}
+
+.navbarra{
+    background-color: #002D5F;
+}
+.logoprincipal{
+    width: 75px;
+    display:flex;
+    align-items: flex-start;
+    
+}
+/*INICIO FOTOS TODOS PILOTOS*/
+.imgpilotosf1{
+    width: 100%;
+    padding: 0;
+    
+}
+/*FIM FOTOS TODOS PILOTOS*/
+.fundo{
+    background-color: rgb(233, 230, 225);
+}
+a{
+    color:#002D5F;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 600;  
+    cursor: pointer;
+    
+}
+a:hover{
+    opacity: 0.7;
+    color: rgb(189, 185, 181);
+}
+nav{
+    display:flex;
+    position:relative    ;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 .4rem .8rem #0005;  
+}
+.listanav{
+    background-color: #D3D3D3;
+    height: 7vh;
+    
+
+    
+}
+.listanavv{
+    background-color:#002D5F;
+    height: 7vh;
+    color: #9D9D9C;
+
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    
+}
+.listahome{
+    list-style: none;
+    display: flex;
+}
+.navlist li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.listahome li{
+    letter-spacing: 3px;
+    margin-left: 50px;
+     
+}
+.menu div{
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+}
+.fotocentral{
+    width: 75px;
+    margin-top :0px ;
+    float: right;
+}
+#titulo{
+    font-size:25px;
+    color:#002D5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800; 
+    margin-left: 40px;
+}
+.texto{
+    color: #002D5F;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 300;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+   }
+.titulo2{
+    font-size:25px;
+    color:#002D5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900; 
+    margin-left: 40px;
+   }
+.titulof1{
+    color: white;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400; 
+    font-size: larger;
+    letter-spacing: 3px;
+    
+}
+
+
+.ttbela {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+table{
+    width: 100%;
+    
+    
+}
+td img{
+    width: 40px;
+    height: 36px;
+    margin-right: 10rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+   
+   
+}
+table, th, td{
+    padding: 0.5rem;
+    border-color:#002D5F ;   
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color:#9D9D9C;   
+    font-family: "Roboto", sans-serif; 
+    font-weight: 900; 
+}
+tbody td{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700; 
+}
+
+tbody tr:nth-child(even){
+    background-color: #9D9D9C;
+}
+tbody tr:hover{
+    background-color: #c1c4d5;
+}
+
+main.table{
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(224, 224, 224, 0.733);
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+    
+}
+.tableth{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(189, 185, 181);
+    padding: .7rem 1rem;
+    font-size: 1.5rem;
+    
+       
+}
+.tablebody{
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color:rgb(211, 208, 205);
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+    
+    
+   
+}
+.tablebody::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.tablebody::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #a7a7aa;
+    visibility: hidden;
+}
+.tablebody:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+/* INICIO IMAGENS DA PISTA E DA CLASSIFICAÇÃO*/
+
+
+.pistasarabia{
+    width: 30%;
+    cursor: pointer;
+    margin-top: 20px;       
+}
+.pistasaustralia{
+    width: 30%;
+    border-top-right-radius: 15px;
+}
+.pistasbarhein{
+    width: 30%;
+    margin-left: 50px;
+    border-top-left-radius: 15px;   
+}
+
+/* FIM IMAGENS DA PISTA E DA CLASSIFICAÇÃO*/
+
+
+
+/* INICIO TABELA CLASSIFICACAO*/
+.titulogpnome{
+    background-color: #002D5F;
+    color: white;
+}
+.tabelasclassificacao{
+    background-color: #D3D3D3;    
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 20px;
+}
+#divtabelapilotos1gp {
+    display: none;
+}
+
+.mainclassificacao{
+    width: 1065px;
+    background-color: rgba(224, 224, 224, 0.733);
+    margin-left:120px ;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;  
+    text-align: center;  
+}
+.divimagenspistas{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#divtabelapilotos1gp:target{
+    display: block; 
+    
+    border-color: black;
+}
+#divtabelapilotos2gp {
+    display: none;
+}
+#divtabelapilotos2gp:target{
+    display: block;
+    
+    
+}
+#divtabelapilotos3gp {
+    display: none;
+}
+#divtabelapilotos3gp:target{
+    display: block;
+    
+    
+}
+/* FIM TABELA CLASSIFICACAO*/
+.tresprimerios{
+    color: #002D5F;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 800; 
+}
+/* INICIO CORES TABELA CLASSIFICACAO*/
+.cincoprimerios{
+    color: #0e1e7c ;
+}
+.dezprimerios{
+    color: rgb(2, 92, 2);
+}
+.demais{
+    color: rgb(143, 2, 2);
+}
+/* FIM CORES TABELA CLASSIFICACAO*/
+/*INICIO TABELA CONTRUTORES CLASSIFICACAO*/
+.fotoequipe{
+    border-radius: 2px;
+    width: 75px;
+}
+/*FIM TABELA CONTRUTORES CLASSIFICACAO*/
+/*INICIO TABELA CONTRUTORES CLASSIFICACAO*/
+.plotagemcarros{
+    
+    border-radius: 15px;
+
+}
+.divplotagemcarros{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tituloplotagemcarros{
+    color: #D3D3D3;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-left: 300px; 
+}
+/*FIM TABELA CONTRUTORES CLASSIFICACAO*/
+.contratopilotos{
+    width: 850px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+/*inicio footer*/
+
+footer{
+    width: 100%;
+    color: aliceblue;
+    margin-top: 15px;
+   
+    
+}
+.divfooter{
+    background-color: #002D5F;
+   width: 100%;
+    padding: 3rem 3.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.logofooter{
+    width: 60px;
+    float: left;
+}
+.iconesocial{
+    width: 50px;
+    border-radius: 1rem;
+   
+}
+.divicone{
+    gap: 2rem;
+    display: flex;
+}
+.footer_contacts{
+    margin-bottom: 0.75rem;
+    
+    
+}
+.footer-list{
+    color:#D3D3D3;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 300; 
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.footerdata{
+   display: flex;
+   justify-content: center;
+}
